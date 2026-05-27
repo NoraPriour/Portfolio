@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Nora Priour-Petitbon</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <a href="#hero" class="logo">Nora</a>
+        <button class="menu-toggle" type="button" aria-label="Ouvrir le menu" aria-expanded="false"
+            aria-controls="main-nav"> <span></span>
+            <span></span>
+            <span></span>
+        </button>
+        <nav id="main-nav">
+            <a href="#about">À propos</a>
+            <a href="#skills">Compétences</a>
+            <a href="#projects">Projets</a>
+            <a href="#contact" class="nav-button">Contact</a>
+        </nav>
+    </header>
+
+    <main>
+        <section id="hero">
+            <h1>Nora Priour-Petitbon</h1>
+            <h2>Développeuse Web Full Stack</h2>
+            <p>Étudiante en développement web full stack, en recherche d'une alternance de 12 mois.</p>
+            <div class="hero-actions">
+                <a href="#projects">Voir mes projets</a>
+                <a href="#contact">Me contacter</a>
+            </div>
+            <div class="social-links">
+                <a href="https://github.com/NoraPriour" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                        stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                        aria-hidden="true">
+                        <path
+                            d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4">
+                        </path>
+                        <path d="M9 18c-4.51 2-5-2-7-2"></path>
+                    </svg></a>
+                <a href="https://www.linkedin.com/in/nora-priour-petitbon" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                        stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                        aria-hidden="true">
+                        <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
+                        <rect width="4" height="12" x="2" y="9"></rect>
+                        <circle cx="4" cy="4" r="2"></circle>
+                    </svg>
+                </a>
+                <a href="mailto:norapriourpetitbon@gmail.com" aria-label="Email">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                        stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                        aria-hidden="true">
+                        <rect width="20" height="16" x="2" y="4" rx="2"></rect>
+                        <path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"></path>
+                    </svg>
+                </a>
+            </div>
+
+            <a href="#about" class="scroll-down" aria-label="Aller à la section À propos">
+                <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none"
+                    stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                    aria-hidden="true">
+                    <path d="M12 5v14"></path>
+                    <path d="m19 12-7 7-7-7"></path>
+                </svg>
+            </a>
+        </section>
+
+        <section id="about" class="content-section about-section">
+            <h2>À propos</h2>
+
+            <div class="about-content">
+                <div class="about-text">
+                    <p>
+                        Étudiante en développement web full stack, je construis progressivement mes compétences
+                        à travers des projets concrets, de la pratique et beaucoup de curiosité.
+                    </p>
+                    <p>
+                        J'aime comprendre comment une interface est pensée, comment elle est structurée,
+                        et comment le code peut rester clair même quand un projet évolue.
+                    </p>
+                </div>
+
+                <div class="about-highlights">
+                    <div>
+                        <strong>Objectif</strong>
+                        <span>Alternance de 12 mois</span>
+                    </div>
+
+                    <div>
+                        <strong>Profil</strong>
+                        <span>Développement web full stack</span>
+                    </div>
+
+                    <div>
+                        <strong>Approche</strong>
+                        <span>Code lisible, interfaces accessibles</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="skills" class="content-section">
+            <h2>Compétences</h2>
+            <p>Je travaille avec des technologies et des outils modernes pour construire des interfaces web claires et
+                maintenables.</p>
+
+            <div class="skills-grid">
+                <div class="skill-item">
+                    <h3>Front-end</h3>
+                    <p>HTML, CSS, JavaScript, TypeScript, responsive design</p>
+                </div>
+
+                <div class="skill-item">
+                    <h3>Back-end</h3>
+                    <p>Java, Spring Boot, PostgreSQL, API REST</p>
+                </div>
+
+                <div class="skill-item">
+                    <h3>Outils</h3>
+                    <p>Git, GitHub, VS Code, IntelliJ IDEA, Figma, pgAdmin, Postman, Podman</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="content-section">
+            <h2>Projets</h2>
+            <p>Une sélection de projets réalisés pendant ma formation et ma pratique personnelle.</p>
+
+            <div class="projects-grid">
+                <article class="project-item">
+                    <h3>Portfolio personnel</h3>
+                    <p>Création d'un site vitrine responsive pour présenter mon profil, mes compétences et mes projets.
+                    </p>
+                    <ul class="project-tags">
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>JavaScript</li>
+                    </ul>
+
+                    <a href="https://github.com/NoraPriour/portfolio" target="_blank" rel="noopener noreferrer">Voir le
+                        projet</a>
+                </article>
+
+                <article class="project-item">
+                    <h3>Click target game</h3>
+                    <p>Développement d'un jeu de clics rapide avec des cibles apparaissant aléatoirement, pour améliorer
+                        la
+                        réactivité et la précision.
+                    </p>
+                    <ul class="project-tags">
+                        <li>JavaScript</li>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>Spring Boot</li>
+                    </ul>
+                    <a href="https://github.com/NoraPriour/click-target-game" target="_blank"
+                        rel="noopener noreferrer">Voir le projet</a>
+                </article>
+
+                <article class="project-item">
+                    <h3>Guess the most popular</h3>
+                    <p>Quiz où les joueurs doivent deviner quelle musique est la plus populaire parmi une liste de
+                        choix.
+                    </p>
+                    <ul class="project-tags">
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>Spring Boot</li>
+                    </ul>
+                    <a href="https://github.com/NoraPriour/guess-the-most-popular" target="_blank"
+                        rel="noopener noreferrer">Voir le projet</a>
+                </article>
+            </div>
+        </section>
+
+        <section id="contact" class="content-section contact-section">
+            <h2>Contact</h2>
+            <p>Vous avez un projet en tête, une opportunité d'alternance ou souhaitez simplement échanger ?</p>
+
+            <div class="contact-links">
+                <a href="mailto:norapriourpetitbon@gmail.com">Email</a>
+                <a href="https://www.linkedin.com/in/nora-priour-petitbon" target="_blank"
+                    rel="noopener noreferrer">LinkedIn</a>
+                <a href="https://github.com/NoraPriour" target="_blank" rel="noopener noreferrer">GitHub</a>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-text">
+            <p>
+                Je conçois des interfaces web claires, accessibles et pensées pour l’utilisateur,
+                avec une attention particulière portée à la lisibilité et à la fluidité de l’expérience.
+            </p>
+            <p>
+                Côté code, je cherche à construire des bases propres, maintenables et faciles à faire évoluer.
+            </p>
+        </div>
+        <div class="footer-links">
+            <a href="#about">À propos</a>
+            <a href="#skills">Compétences</a>
+            <a href="#projects">Projets</a>
+            <a href="#contact">Contact</a>
+        </div>
+        <div class="social-links">
+            <a href="https://github.com/NoraPriour" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                    stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                    aria-hidden="true">
+                    <path
+                        d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4">
+                    </path>
+                    <path d="M9 18c-4.51 2-5-2-7-2"></path>
+                </svg>
+            </a>
+            <a href="https://www.linkedin.com/in/nora-priour-petitbon" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                    stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                    aria-hidden="true">
+                    <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
+                    <rect width="4" height="12" x="2" y="9"></rect>
+                    <circle cx="4" cy="4" r="2"></circle>
+                </svg>
+            </a>
+            <a href="mailto:norapriourpetitbon@gmail.com" aria-label="Email"> <svg xmlns="http://www.w3.org/2000/svg"
+                    width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                    stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                    <rect width="20" height="16" x="2" y="4" rx="2"></rect>
+                    <path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"></path>
+                </svg></a>
+        </div>
+        <div class="footer-copy">
+            <p>
+                Réalisé avec
+                <svg class="footer-heart" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24"
+                    fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                    aria-hidden="true">
+                    <path
+                        d="M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4.05 3 5.5l7 7Z">
+                    </path>
+                </svg>
+                par Nora Priour-Petitbon &copy; 2026
+            </p>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
