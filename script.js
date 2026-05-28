@@ -47,3 +47,16 @@ function updateHeaderShadow() {
 
 window.addEventListener("scroll", updateHeaderShadow);
 updateHeaderShadow();
+
+const contactForm = document.querySelector(".contact-form");
+const formStatus = document.querySelector(".form-status");
+
+if (contactForm && formStatus) {
+  contactForm.addEventListener("submit", (event) => {
+    event.preventDefault();
+
+    formStatus.textContent = "Merci, votre message est prêt à être envoyé.";
+    formStatus.classList.add("is-visible");
+    contactForm.reset();
+  });
+}
